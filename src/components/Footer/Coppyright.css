@@ -1,0 +1,11 @@
+.Footer-coppyright-content {
+    text-align: center;
+    font-size: large;
+    color: var(--theme-color-grey);
+}
+.Footer-coppyright-content hr {
+    background-color: var(--theme-color-black);
+}
+.Footer-coppyright-content span {
+    color: rgb(252, 169, 16);
+}

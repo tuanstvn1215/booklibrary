@@ -1,0 +1,7 @@
+.Navigator {
+    font-size: 20px;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

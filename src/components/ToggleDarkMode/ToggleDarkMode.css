@@ -1,0 +1,7 @@
+.toggleDarkMode-input {
+    display: none;
+}
+.toggleDarkMode-lable :hover {
+    cursor: pointer;
+    color: var(--theme-color-grey);
+}

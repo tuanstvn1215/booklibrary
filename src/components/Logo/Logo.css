@@ -1,0 +1,7 @@
+.Logo img {
+    height: 90%;
+    margin: 5px;
+}
+.Logo {
+    height: inherit;
+}

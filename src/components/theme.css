@@ -1,0 +1,34 @@
+html[data-theme='light'] {
+    --theme-color-pink: rgb(160, 0, 120);
+    --theme-color-white: rgb(255, 255, 255);
+    --theme-color-gray: rgb(161, 161, 161);
+    --theme-color-black: rgb(0, 0, 0);
+    --theme-color-grey: rgb(75, 75, 75);
+
+    --theme-color-banner-inner-1: rgba(255, 220, 235, 1);
+    --theme-color-banner-inner-2: rgba(207, 228, 255, 1);
+    --theme-color-banner-inner-0: rgb(255, 220, 235);
+
+    --theme-color-footer: rgb(244, 232, 247);
+}
+html[data-theme='dark'] {
+    --theme-color-grey: rgb(194, 194, 194);
+    --theme-color-gray: rgb(75, 75, 75);
+    --theme-color-pink: rgb(204, 183, 202);
+    --theme-color-white: rgb(36, 35, 35);
+    --theme-color-black: rgb(255, 255, 255);
+
+    --theme-color-banner-inner-1: rgba(238, 174, 202, 1) 0%;
+    --theme-color-banner-inner-2: rgba(152, 187, 230, 1) 100%;
+    --theme-color-banner-inner-0: rgb(238, 174, 202);
+
+    --theme-color-footer: rgb(17, 15, 17);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/

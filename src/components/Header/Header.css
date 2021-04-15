@@ -1,0 +1,56 @@
+.Header a {
+    text-decoration: none;
+    color: var(--theme-color-pink);
+}
+.Header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 550;
+    color: var(--theme-color-grey);
+    height: 90px;
+    background-color: var(--theme-color-white);
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    right: 0;
+    height: 60px;
+    z-index: 999;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.411);
+    opacity: 0.9;
+}
+.Header-inner {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: space-between;
+}
+.Header-left {
+    padding: 0px !important;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: left;
+}
+.Header-right {
+    padding: 0px !important;
+    display: flex;
+    height: inherit;
+    flex-direction: row;
+    justify-content: right;
+}
+.Header-right-item {
+    padding: 0px 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    height: inherit;
+}
+.asd {
+    right: 50px;
+    background-color: black;
+    top: 50px;
+    position: absolute;
+}

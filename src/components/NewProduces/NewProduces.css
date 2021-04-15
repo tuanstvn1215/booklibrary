@@ -1,0 +1,19 @@
+.NewProduces {
+    color: var(--theme-color-grey);
+    background-color: var(--theme-color-white);
+}
+.NewProduces__Title {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0px 0px 0px;
+}
+.NewProduces__Title__Header {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+}
+.NewProduces__Title__Header span {
+    color: orange;
+}

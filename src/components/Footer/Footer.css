@@ -1,0 +1,4 @@
+.Footer {
+    background-color: var(--theme-color-footer);
+    min-height: 400px;
+}

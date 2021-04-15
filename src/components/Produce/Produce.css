@@ -1,0 +1,37 @@
+.Produce {
+    transition: transform 100ms;
+}
+.Produce:hover {
+    height: fit-content;
+    transform: scale(1.01);
+}
+.Produce:hover * {
+    text-decoration: none !important;
+}
+
+.Produce__thumb {
+    height: fit-content;
+    overflow-y: hidden;
+}
+.Produce__thumb img {
+    width: 100%;
+}
+
+.Produce__content {
+    font-weight: 300;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Produce__content span {
+    color: orange;
+}
+
+.Produce__content__author {
+    margin-top: 10px;
+}
